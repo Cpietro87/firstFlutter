@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_2/screens/navBarNavigation.dart';
 // import 'package:flutter_2/screens/user.dart';
 // import 'package:flutter_2/screens/login.dart';
 // import 'package:flutter_2/screens/home_screens.dart';
 // import 'package:flutter_2/screens/counte_screens.dart';
-import 'package:flutter_2/screens/user_list.dart';
+// import 'package:flutter_2/screens/user_list.dart';
 
 
 
@@ -22,8 +23,10 @@ class MyApp extends StatelessWidget {
         // home: HomeScreen()
         // home: CounterScreen()
         // home: LoginScreen()
-        home: UserList(),
         // home: UserList(),
+        // home: UserList(),
+        home: NavBar(),
     );
   }
 }
+
