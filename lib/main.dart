@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_2/screens/switch_screens.dart';
+import 'package:flutter_2/screens/consultas_screens.dart';
+// import 'package:flutter_2/screens/switch_screens.dart';
 // import 'package:flutter_2/screens/doctor_screens.dart';
 // import 'package:flutter_2/screens/navBarNavigation.dart';
 // import 'package:flutter_2/screens/user.dart';
@@ -29,7 +30,8 @@ class MyApp extends StatelessWidget {
         // home: UserList(),
         // home: NavBar(),
         // home: ProfileDoctor(name: 'Pepe', patients: ['Argento', 'Pietro'], profession: 'Dentista', email: 'pepe@yahoo.com', phone: '1234', photoUrl: '',),
-        home: MultiSwitch()
+        // home: MultiSwitch()
+        home: ConsultasMedicas(),
     );
   }
 }
